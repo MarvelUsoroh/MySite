@@ -2,7 +2,7 @@ body {
     color: #40514E;
     margin: 0;
     text-align: center;
-    font-family: sans-serif
+    font-family: Assistant,sans-serif;
 }
 
 h1, h2, h3 {
@@ -32,14 +32,16 @@ hr {
 }
 
 .main-head {
-    font-family: assistant, sans-serif;
-    font-weight: normal;
+    font-family: Merriweather, sans-serif;
+    font-weight: 400;
     font-size: 2rem;
     margin: 40px 40px;
 }
 
 .sub-head {
+    font-family: Roboto;
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 /*********** Top-container *************/
@@ -64,7 +66,8 @@ hr {
 
 .intro-head {
     font-family: Neucha, cursive;
-    font-size: 5.625rem;
+    font-size: 6.625rem;
+    font-weight: bold;
     margin: auto;
 }
 
@@ -152,4 +155,86 @@ hr {
     color: #EAF6F6; 
     font-size: 0.75rem;
     margin: 30px auto 10px;
+}
+
+
+@media (max-width: 800px) {
+
+    /******** top-Container ********/
+
+    .intro-head {
+        font-size: 6.25rem;
+    }
+    .intro-text {
+        margin-bottom: 5%;
+    }
+    .top-cloud {
+        position: absolute;
+        top: 30px;
+    }
+    .bottom-cloud {
+        position: absolute;
+        bottom: 300px;
+        left: 300px;
+    }
+
+    /********** middle-Container ********/
+
+    .profile {
+        padding: 14% 12%;
+    }
+
+    /********* Images *********/
+
+    .profile-image {
+        padding: 10% 5%;
+        width: 60%;
+    }
+    .computer {
+        width: 40%;
+    }
+    .phone {
+        width: 50%;
+        margin-left: 20px;
+    }
+    .profile-text {
+        font-size: 2rem;
+        width: 90%;
+    }
+    .skill-row {
+        padding-top: 50px;
+        text-align: initial;
+        width: 80%;
+    }
+    .main-head {
+        font-size: 3.5rem;
+    }
+    .sub-head {
+        font-size: 2.5rem;
+    }
+    .body-text {
+        font-size: 2rem;
+    }
+
+/********* contact-Me *********/
+
+    .sub-h3 {
+        width: 95%;
+    }
+    .contact-message {
+        font-size: 2rem;
+        width: 90%;
+    }
+    .btn {
+        font-size: 1.5rem;
+    }
+
+/********* bottom-Container **********/
+
+    .footer-link {
+        font-size: 1.3rem;
+    }
+    .copyright {
+        font-size: 1rem;
+    }
 }
